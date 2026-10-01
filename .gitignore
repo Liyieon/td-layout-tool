@@ -1,0 +1,22 @@
+# handoff lock (local only)
+.device-lock.json
+
+# personal / large / generated — keep out of the public repo
+*.toe
+*.toe.bak
+Backup/
+assets/
+export/
+layouts/
+*.mp4
+*.mov
+*.png
+*.jpg
+*.jpeg
+!docs/**/*.png
+!docs/**/*.jpg
+
+# TouchDesigner junk
+*.dmp
+CrashAutoSave.*
+__pycache__/
